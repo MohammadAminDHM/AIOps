@@ -1,0 +1,12 @@
+{
+  "name": "ai-devops-demo-endpoint",
+  "imageName": "registry.example.com/ai-devops-demo:latest",
+  "gpuTypeIds": ["NVIDIA RTX 4090"],
+  "workersMin": 0,
+  "workersMax": 2,
+  "timeout": 120,
+  "env": {
+    "MODEL_CACHE_DIR": "/runpod-volume/models",
+    "MODEL_NAME": "demo-model"
+  }
+}
