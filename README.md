@@ -162,7 +162,3 @@ AI Inference Platform on RunPod
 - مانیتور کردن صرفاً GPU utilization و ندیدن TTFT، TPOT، tokens/sec، queue time و p95 latency
 - deploy دستی بدون CLI/API/CI-CD
 - نداشتن shutdown policy و cost guardrail
-
-## جمع‌بندی
-
-برای نیروی DevOps، مسیر را از ML سنگین شروع نکنید. اول **GPU + Docker + RunPod + Serving + Monitoring** را عملی کنید؛ بعد اگر واقعاً لازم شد سراغ Kubernetes، Ray، Triton، multi-node training یا autoscaling پیشرفته بروید.
